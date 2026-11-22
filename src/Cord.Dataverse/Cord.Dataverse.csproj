@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Saves waybills to a Dataverse table (Power Platform / Dynamics 365). -->
+  <ItemGroup>
+    <PackageReference Include="Microsoft.PowerPlatform.Dataverse.Client" />
+    <PackageReference Include="Azure.Identity" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Cord.Core\Cord.Core.csproj" />
+  </ItemGroup>
+</Project>

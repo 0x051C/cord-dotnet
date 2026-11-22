@@ -1,0 +1,9 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "CordStorage": "UseDevelopmentStorage=true",
+    "Dataverse__Url": "https://<your-environment>.crm.dynamics.com"
+  }
+}

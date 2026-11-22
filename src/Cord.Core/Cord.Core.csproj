@@ -1,0 +1,3 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Waybill model, CSV reading and validation. No Azure or Dataverse dependencies. -->
+</Project>

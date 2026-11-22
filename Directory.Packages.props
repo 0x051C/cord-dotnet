@@ -1,0 +1,20 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <!-- Lets the pins below override vulnerable transitive versions. -->
+    <CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- Azure Functions (isolated worker) -->
+    <PackageVersion Include="Microsoft.Azure.Functions.Worker" Version="2.52.0" />
+    <PackageVersion Include="Microsoft.Azure.Functions.Worker.Sdk" Version="2.1.0" />
+    <PackageVersion Include="Microsoft.Azure.Functions.Worker.Extensions.Storage.Blobs" Version="6.8.2" />
+    <!-- Dataverse -->
+    <PackageVersion Include="Microsoft.PowerPlatform.Dataverse.Client" Version="1.2.27" />
+    <PackageVersion Include="Azure.Identity" Version="1.21.0" />
+    <!-- Transitive pin: the Dataverse client brings 8.0.2, which has known vulnerabilities. -->
+    <PackageVersion Include="System.Security.Cryptography.Xml" Version="10.0.15" />
+    <!-- Tests -->
+    <PackageVersion Include="xunit.v3" Version="4.0.3" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Cord.Core/Cord.Core.csproj" />
+    <Project Path="src/Cord.Dataverse/Cord.Dataverse.csproj" />
+    <Project Path="src/Cord.Functions/Cord.Functions.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Cord.Tests/Cord.Tests.csproj" />
+  </Folder>
+</Solution>
